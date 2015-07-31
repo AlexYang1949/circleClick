@@ -14,6 +14,7 @@
 		F166169A1B6B1F94009BA114 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F16616991B6B1F94009BA114 /* Images.xcassets */; };
 		F166169D1B6B1F94009BA114 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F166169B1B6B1F94009BA114 /* LaunchScreen.xib */; };
 		F16616A91B6B1F94009BA114 /* demoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F16616A81B6B1F94009BA114 /* demoTests.m */; };
+		F16616B41B6B29D8009BA114 /* drawView.m in Sources */ = {isa = PBXBuildFile; fileRef = F16616B31B6B29D8009BA114 /* drawView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		F16616A21B6B1F94009BA114 /* demoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = demoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F16616A71B6B1F94009BA114 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F16616A81B6B1F94009BA114 /* demoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = demoTests.m; sourceTree = "<group>"; };
+		F16616B21B6B29D8009BA114 /* drawView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = drawView.h; sourceTree = "<group>"; };
+		F16616B31B6B29D8009BA114 /* drawView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = drawView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +88,8 @@
 				F16616911B6B1F94009BA114 /* AppDelegate.m */,
 				F16616931B6B1F94009BA114 /* ViewController.h */,
 				F16616941B6B1F94009BA114 /* ViewController.m */,
+				F16616B21B6B29D8009BA114 /* drawView.h */,
+				F16616B31B6B29D8009BA114 /* drawView.m */,
 				F16616961B6B1F94009BA114 /* Main.storyboard */,
 				F16616991B6B1F94009BA114 /* Images.xcassets */,
 				F166169B1B6B1F94009BA114 /* LaunchScreen.xib */,
@@ -221,6 +226,7 @@
 			files = (
 				F16616951B6B1F94009BA114 /* ViewController.m in Sources */,
 				F16616921B6B1F94009BA114 /* AppDelegate.m in Sources */,
+				F16616B41B6B29D8009BA114 /* drawView.m in Sources */,
 				F166168F1B6B1F94009BA114 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
