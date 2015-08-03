@@ -23,13 +23,9 @@
 {
     self = [super initWithFrame:frame];
     if (self) {
-        for (int index = 0; index<5; index++) {
-           
             self.backgroundColor=[UIColor redColor];
             UITapGestureRecognizer *gesture=[[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(tap:)];
             [self addGestureRecognizer:gesture];
-        }
-
     }
     return self;
 }
